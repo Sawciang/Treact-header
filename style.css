@@ -24,6 +24,7 @@ main {
 button {
     cursor: pointer;
 }
+
 a {
     display: inline;
     text-decoration: none;
@@ -178,6 +179,10 @@ li {
     right: 18px;
 }
 
+.menu--open {
+    max-height: 10vh;
+    overflow-y: hidden;
+}
 
 /*
 
@@ -989,6 +994,7 @@ MOBILE RESPONSIVENESS ↓
     header .row {
         align-items: flex-end;
     }
+    
 }
 
 @media (max-width: 1024px) {
@@ -1073,6 +1079,8 @@ MOBILE RESPONSIVENESS ↓
     .start__button {
         padding: 16px 32px;
     }
+    
+
 }
 
 @media(max-width: 768px) {
